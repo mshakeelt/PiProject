@@ -3,26 +3,28 @@ This repository contains the fork of scot lawson library of audio reactive led s
 GPIO pins are connected with the pushbutton to change the visualization from frequency to intensity and vice versa. 
 
 # Required Hardware
-Raspberry Pi 3B+
-USB Microphone
-Individually Addressable LED Strip (WS2812b)
-Strip case (optional)
-Breadboard + connectors
-Push Buttons
-Some Resistors and Capacitors for Debouncing Circuit for Push Buttons
+* Raspberry Pi 3B+
+* USB Microphone
+* Individually Addressable LED Strip (WS2812b)
+* Strip case (optional)
+* Breadboard + connectors
+* Push Buttons
+* Some Resistors and Capacitors for Debouncing Circuit for Push Buttons
 
 # Required Libraries
-pyaudio
-neopixel
-numpy
-scipy
-sys
-multiprocessing
-RPi.GPIO
-platform
+* pyaudio
+* neopixel
+* numpy
+* scipy
+* sys
+* multiprocessing
+* RPi.GPIO
+* platform
 
 # Usage
-python main.py frequency or python main.py intensity
+python main.py frequency
+or 
+python main.py intensity
 
 # Reference
 https://github.com/scottlawsonbc/audio-reactive-led-strip
