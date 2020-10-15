@@ -26,6 +26,18 @@ python main.py frequency
 or 
 python main.py intensity
 
+# Multiprocessing Block Diagram
+With the device bootup the raspberrypi starts waiting for the GPIO input. When user push a button connected to GPIO pin then update function gets called and corresponsing visualization gets displayed on the led strip as a separate process. So one process checks on the GPIO pins and other takes the audio input and create a display on the led strip. 
+![multiprocessing](https://github.com/mshakeelt/Sound_Visualizer_Using_RaspberryPi/blob/master/images/Process%20Block%20Diagram.JPG)
+
+# Device Flow Diagram
+Here is the device flow diagram when tells how push buttons are communicating with the raspberrypi.
+![Device Flow](https://github.com/mshakeelt/Sound_Visualizer_Using_RaspberryPi/blob/master/images/Device%20Flow%20Diagram.JPG)
+
+# Visualizations
+Here are some examplary visualizations.
+![visualizations](https://github.com/mshakeelt/Sound_Visualizer_Using_RaspberryPi/blob/master/images/Frequency%20and%20Intensity%20Testing.JPG)
+
 # Reference
 https://github.com/scottlawsonbc/audio-reactive-led-strip
 # Setup Tutorial without Push Buttons and Multiprocessing
