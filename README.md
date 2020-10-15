@@ -31,7 +31,7 @@ With the device bootup the raspberrypi starts waiting for the GPIO input. When u
 ![multiprocessing](https://github.com/mshakeelt/Sound_Visualizer_Using_RaspberryPi/blob/master/images/Process%20Block%20Diagram.JPG)
 
 # Device Flow Diagram
-Here is the device flow diagram when tells how push buttons are communicating with the raspberrypi.
+Here is the device flow diagram which tells how push buttons are communicating with the raspberrypi.
 ![Device Flow](https://github.com/mshakeelt/Sound_Visualizer_Using_RaspberryPi/blob/master/images/Device%20Flow%20Diagram.JPG)
 
 # Visualizations
